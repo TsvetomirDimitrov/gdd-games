@@ -13,10 +13,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "yarn generate && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate": "openapi -s https://api.opendota.com/api -o ./src/generated/ -l js"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "openapi-client": "^1.0.5"
   }
 }
