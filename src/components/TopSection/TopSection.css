@@ -1,0 +1,10 @@
+.top-card {
+  width: 15%;
+  min-width: 300px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.top-card-container {
+  margin-bottom: 15px;
+}
