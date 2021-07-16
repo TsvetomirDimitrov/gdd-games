@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "start": "yarn generate && nodemon ./bin/www",
-    "generate": "openapi -s https://api.opendota.com/api -o ./src/generated/ -l js"
+    "generate": "openapi -s https://api.opendota.com/api -o ./api/ -l js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "isomorphic-fetch": "^3.0.0",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "openapi-client": "^1.0.5"
