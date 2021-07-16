@@ -9,7 +9,7 @@ export const LayoutSchema = () => {
   return (
     <Layout>
       <Layout>
-        <Header className={"header-container"}> GDD Hall of Flame </Header>
+        <Header className={"header-container"}> GDD Hall of Shame </Header>
         <Content className={"content-container"}>
           <TopSection />
           <div>
